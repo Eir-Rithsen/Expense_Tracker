@@ -7,42 +7,44 @@ A simple command-line application to manage your personal finances. This applica
 #### 3.Delete an expense by its ID.
 #### 4.View a list of all expenses in a tabular format.
 #### 5.Get a summary of total expenses, optionally for a specific month.
-#### 5.Export expenses to a CSV file for further analysis.
+#### 6.Export expenses to a CSV file for further analysis.
 ---
 ## Requirements
-Python 3.6 or higher
-tabulate Python module for displaying data in table format
-Installation
-### Clone the repository or download the script:
+#### Python 3.6 or higher
+#### Tabulate Python module for displaying data in table format
+---
+## Installation
+#### 1.Clone the repository or download the script:
 
 ````bash
 git clone https://github.com/your-username/expense-tracker.git
 cd expense-tracker
 ````
-### Install the required dependencies:
+#### 2.Install the required dependencies:
 
 ````bash
 
 pip install tabulate
 ````
-#### You're ready to use the application!
+#### 3.You're ready to use the application!
+---
 ## Usage
 ## Commands
-### Add an Expense
+#### 1.Add an Expense
 
 ````bash
 python expense_tracker.py add --description "Lunch" --amount 15.5
 ````
 Adds a new expense with the specified description and amount.
 
-### List All Expenses
+#### 2.List All Expenses
 
 ````bash
 python expense_tracker.py list
 ````
 Displays all expenses in a table format.
 
-### Delete an Expense
+#### 3.Delete an Expense
 
 ````bash
 
@@ -50,32 +52,32 @@ python expense_tracker.py delete --id 2
 ````
 Deletes the expense with the specified ID.
 
-### Update an Expense
+#### 4.Update an Expense
 
 ````bash
 python expense_tracker.py update --id 1 --description "Dinner" --amount 20
 ````
 Updates the description and/or amount of the specified expense.
 
-### Get a Summary
+#### 5.Get a Summary
 
-#### Overall Summary:
+##### Overall Summary:
 ````bash
 python expense_tracker.py summary
 ````
-#### Monthly Summary:
+##### Monthly Summary:
 ````bash
 
 python expense_tracker.py summary --month 8
 ````
-### Export to CSV
+#### 6.Export to CSV
 
 ````bash
 
 python expense_tracker.py export --output expenses.csv
 ````
 ## Exports all expenses to a specified CSV file.
-
+---
 ### Example Usage
 ### Add Expenses
 ````bash
@@ -147,10 +149,10 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ## Contributing
 Contributions are welcome! To contribute:
 
-### 1.Fork the repository.
-### 2.Create a new branch for your feature or bug fix.
-### 3.Commit your changes and push them to your branch.
-### 4.Submit a pull request.
+#### 1.Fork the repository.
+#### 2.Create a new branch for your feature or bug fix.
+#### 3.Commit your changes and push them to your branch.
+#### 4.Submit a pull request.
 --- 
 ## Author
 Developed by Nicky, a Junior Full Stack Developer passionate about creating functional tools.
