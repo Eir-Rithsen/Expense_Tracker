@@ -2,12 +2,12 @@
 A simple command-line application to manage your personal finances. This application allows you to add, update, delete, and view expenses, as well as generate summaries and export expenses to a CSV file. The expenses are stored persistently in a JSON file.
 ---
 ## Features
-### 1.Add an expense with a description and amount.
-### 2.Update an existing expense.
-### 3.Delete an expense by its ID.
-### 4.View a list of all expenses in a tabular format.
-### 5.Get a summary of total expenses, optionally for a specific month.
-### 5.Export expenses to a CSV file for further analysis.
+#### 1.Add an expense with a description and amount.
+#### 2.Update an existing expense.
+#### 3.Delete an expense by its ID.
+#### 4.View a list of all expenses in a tabular format.
+#### 5.Get a summary of total expenses, optionally for a specific month.
+#### 5.Export expenses to a CSV file for further analysis.
 ---
 ## Requirements
 Python 3.6 or higher
