@@ -1,5 +1,7 @@
 # Expense Tracker
+
 A simple command-line application to manage your personal finances. This application allows you to add, update, delete, and view expenses, as well as generate summaries and export expenses to a CSV file. The expenses are stored persistently in a JSON file.
+#### Peoject idea from: https://roadmap.sh/projects/expense-tracker
 ---
 ## Features
 #### 1.Add an expense with a description and amount.
