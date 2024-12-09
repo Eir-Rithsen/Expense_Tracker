@@ -156,8 +156,5 @@ Contributions are welcome! To contribute:
 #### 3.Commit your changes and push them to your branch.
 #### 4.Submit a pull request.
 --- 
-## Author
-Developed by Nicky, a Junior Full Stack Developer passionate about creating functional tools.
---- 
 ## Feedback and Issues
 If you encounter any issues or have suggestions for improvement, please open an issue in the repository or contact me directly.
