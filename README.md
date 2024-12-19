@@ -35,7 +35,7 @@ pip install tabulate
 #### 1.Add an Expense
 
 ````bash
-python expense_tracker.py add --description "Lunch" --amount 15.5-----
+python expense_tracker.py add --description "Lunch" --amount 15.5----------
 ````
 Adds a new expense with the specified description and amount.
 
